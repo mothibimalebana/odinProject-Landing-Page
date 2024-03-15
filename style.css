@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+head, header, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+                    /**Header**/
+header {
+    background-color: #1f2937;
+    min-width: 100%;
+}
+        /**Navbar**/
+.header-container .navbar {
+display: flex;
+justify-content: space-between;
+min-width: 40vh;
+background-color: #1f2937;
+}
+    /**Navbar-Left**/
+.left-header {
+    margin-left: 10%;
+}
+.left-header p {
+    font-weight: bold;
+    font-size: larger;
+}
+    /**Navbar-Right**/
+.navbar .right-header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    min-width: 100%;
+    /**Typography**/
+    list-style: none;
+}
+.right-header a {
+    color: #e5e7eb;
+}
+.links { 
+    display: flex;
+    align-items: center;
+    margin-right: 13%;
+    
+}
+.links a {
+    /**Typography**/
+    color: #e5e7eb;
+    text-decoration: none;
+}
+        /**Hero Section**/
+.header-hero_section {
+    display: flex;
+}

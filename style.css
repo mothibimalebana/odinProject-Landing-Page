@@ -42,7 +42,7 @@ background-color: #1f2937;
 .links { 
     display: flex;
     align-items: center;
-    margin-right: 13%;
+    margin-right: 5%;
     
 }
 .links a {
@@ -53,4 +53,27 @@ background-color: #1f2937;
         /**Hero Section**/
 .header-hero_section {
     display: flex;
+    margin-left: 10%;
+
+    /**Typography**/
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.header-hero_section .left-hero_section .subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-hero_section {
+    flex: 50%;
+}
+.right-hero_section {
+    flex: 50%;
+
+    /**Typography**/
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: start;
 }

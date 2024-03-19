@@ -175,7 +175,8 @@ body .content {
                 /**Call to action**/
 .call-to-action {
     display: flex;
-    flex: 1 1 auto;
+    flex: 2 0 auto;
+    justify-content: space-around;
     background-color: #3882F6;
     color: #f9faf8;
     border-radius: 15px;
@@ -183,4 +184,33 @@ body .content {
     border-color: #3882F6;
     padding: 30px;
     margin: 150px 250px;
+}
+.call-to-action .right {
+    display: flex;
+    align-items: center;
+}
+.call-to-action .right button{
+    min-height: 40px;
+    min-width: 200px;
+
+
+
+    background-color: #3882F6;
+
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: #f9faf8;
+    color: #f9faf8;
+    font-weight: 600;
+
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #1f2937;
+    color: #f9faf8;
+
+    display: flex;
+    justify-content: center;
 }

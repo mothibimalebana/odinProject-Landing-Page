@@ -1,12 +1,18 @@
 body {
+    display: flex;
+    flex-direction: column;
+    /**Box Model**/
     margin: 0;
+    /**Typography**/
     font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
 }
 head, header, footer {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-                    /**Header**/
+                                               /**Header**/
 header {
     background-color: #1f2937;
     min-width: 100%;
@@ -62,10 +68,21 @@ background-color: #1f2937;
     font-weight: bolder;
     color: #f9faf8;
 }
-
-.header-hero_section .left-hero_section .subtext {
+.left-hero_section .subtext {
     font-size: 18px;
     color: #e5e7eb;
+}
+.left-hero_section .subtext button{
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 15px;
+
+  background-color: #3882F6;
+  color: #f9faf8;
+  border-radius: 5%;
+  border-color: #3882F6;
 }
 
 .left-hero_section {
@@ -91,4 +108,79 @@ background-color: #1f2937;
     background-color: #e5e7eb;
     height: 150px;
     width:  400px;
+}
+
+                                            /**Body**/
+body .content {
+    display: flex;
+    flex-direction: column;
+}
+.content-header {
+    margin-top: 10px;
+    font-size: 36px;
+}
+.content-header p{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    min-width: 100%;
+
+    /**Typography**/
+    font-weight: bolder;
+}
+.content-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 100px
+}
+.content-images .img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-width: 5px;
+    border-style: solid;
+
+    border-color: #3882F6;
+}
+.img-1, .img-2, .img-3, .img-4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 1 auto;
+
+    max-width: 250px;
+}
+.img-1 p, .img-2 p, .img-3 p, .img-4 p {
+    text-align: center;
+    max-width: 200px;
+}
+                /**Content-Qoute**/
+.content-qoute {
+    background-color: #e5e7eb;
+    padding: 150px 100px;
+
+    font-style: italic;
+}
+.content-qoute p {
+    font-size: 36px;
+}
+
+.author p{
+    font-style: normal;
+    font-weight: bold;
+}
+
+                /**Call to action**/
+.call-to-action {
+    display: flex;
+    flex: 1 1 auto;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #3882F6;
+    padding: 30px;
+    margin: 150px 250px;
 }

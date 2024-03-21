@@ -29,12 +29,14 @@ background-color: #1f2937;
 .left-header {
     margin-left: 10%;
 }
+
 .left-header p {
     font-weight: bold;
     font-size: larger;
 }
     /**Navbar-Right**/
-.navbar .right-header {
+/* .navbar .right-header { */
+.right-header {
     display: inline-flex;
     align-items: center;
     gap: 12px;
@@ -44,13 +46,13 @@ background-color: #1f2937;
     font-size: 18px;
     list-style: none;
 }
+
 .right-header a {
     color: #e5e7eb;
 }
 .links { 
     display: flex;
-    margin-right: 5%;
-    
+    margin-right: 10%;
 }
 .links a {
     /**Typography**/
@@ -60,7 +62,10 @@ background-color: #1f2937;
         /**Hero Section**/
 .header-hero_section {
     display: flex;
+    justify-content: space-between;
+    min-width: 40vh;
     margin-left: 10%;
+    margin-right: 10%;
     padding-bottom: 5%;
 
     /**Typography**/
@@ -98,7 +103,7 @@ background-color: #1f2937;
     justify-content: flex-end;
     flex: 50%;
 
-    margin: 0px 5% 2% 1%;
+    margin: 0px 0% 2% 1%;
     /**Typography**/
     font-size: 18px;
     color: #e5e7eb;
